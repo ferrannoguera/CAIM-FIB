@@ -51,10 +51,12 @@ if __name__ == '__main__':
         for v in voc:
             lpal.append((v.encode("utf8", "ignore"), voc[v]))
 
-
+        total = 0
         for pal, cnt in sorted(lpal, key=lambda x: x[0 if args.alpha else 1]):
-            if cnt > 500:
-                print('%d, %s' % (cnt, pal))
-        print('%s Words' % len(lpal))
+            if cnt > 350:
+                if not pal.isdigit():
+                    print('%d, %s' % (cnt, pal))
+                    total = total + 1
+        print('%s Words selected from a total of %s' % (total,len(lpal))) 
     except NotFoundError:
         print('Index %s does not exists' % index)
