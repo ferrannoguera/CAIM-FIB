@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
         total = 0
         for pal, cnt in sorted(lpal, key=lambda x: x[0 if args.alpha else 1]):
-            if cnt > 350:
+            if cnt > 200:
                 if not pal.isdigit():
                     print('%d, %s' % (cnt, pal))
                     total = total + 1
