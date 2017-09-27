@@ -41,12 +41,11 @@ if __name__ == '__main__':
         for s in sc:
             tv = client.termvectors(index=index, doc_type='document', id=s['_id'], fields=['text'])
             if 'text' in tv['term_vectors']:
-                if 'text'.startwith(0): 
-                    for t in tv['term_vectors']['text']['terms']:
-                        if t in voc:
-                            voc[t] += tv['term_vectors']['text']['terms'][t]['term_freq']
-                        else:
-                            voc[t] = tv['term_vectors']['text']['terms'][t]['term_freq']
+                for t in tv['term_vectors']['text']['terms']:
+                    if t in voc:
+                        voc[t] += tv['term_vectors']['text']['terms'][t]['term_freq']
+                    else:
+                        voc[t] = tv['term_vectors']['text']['terms'][t]['term_freq']
         lpal = []
 
         for v in voc:
@@ -54,7 +53,7 @@ if __name__ == '__main__':
 
 
         for pal, cnt in sorted(lpal, key=lambda x: x[0 if args.alpha else 1]):
-            if cnt > 300:
+            if cnt > 500:
                 print('%d, %s' % (cnt, pal))
         print('%s Words' % len(lpal))
     except NotFoundError:
