@@ -9,7 +9,7 @@ TFIDFViewer
     Receives two paths of files to compare (the paths have to be the ones used when indexing the files)
 
 :Authors:
-    Ferran & Yeray
+    Yeray & Ferran
 
 :Version: 
 
