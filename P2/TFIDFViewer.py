@@ -1,18 +1,12 @@
 """
 .. module:: TFIDFViewer
-
 TFIDFViewer
 ******
-
 :Description: TFIDFViewer
-
     Receives two paths of files to compare (the paths have to be the ones used when indexing the files)
-
 :Authors:
     Ferran & Yeray
-
 :Version: 
-
 :Date:  05/07/2017
 """
 
@@ -24,15 +18,15 @@ from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import Q
 
 import argparse
+import math
 
 import numpy as np
 
-__author__ = 'bejar'
+__author__ = 'ferranyyeray'
 
 def search_file_by_path(client, index, path):
     """
     Search for a file using its path
-
     :param path:
     :return:
     """
@@ -53,7 +47,6 @@ def document_term_vector(client, index, id):
     Returns the term vector of a document and its statistics a two sorted list of pairs (word, count)
     The first one is the frequency of the term in the document, the second one is the number of documents
     that contain the term
-
     :param client:
     :param index:
     :param id:
@@ -75,7 +68,6 @@ def document_term_vector(client, index, id):
 def toTFIDF(client, index, file):
     """
     Returns the term weights of a document
-
     :param file:
     :return:
     """
@@ -83,17 +75,20 @@ def toTFIDF(client, index, file):
     file_id = search_file_by_path(client, index, file)
 
     # Get document terms frequency and overall terms document frequency
+    #file_tv => frequency of the term in the document
+    #file_df => number of documents that contain the term
     file_tv, file_df = document_term_vector(client, index, file_id)
-
+    #max_freq => frequencia maxima termino
     max_freq = max([f for _, f in file_tv])
-
+    #dcount => num de documentos en indice
     dcount = doc_count(client, index)
 
     tfidfw = []
     for (t, w),(_, df) in zip(file_tv, file_df):
-        #
-        # Something happens here black magic and stuff
-        #
+        idfi = log((dcount/df),2)
+        tfdi = w/max_freq
+        wdi = tfdi * idfi
+        tfidfw[t] = wdi
         pass
 
     return normalize(tfidfw)
@@ -138,7 +133,6 @@ def cosine_similarity(tw1, tw2):
 def doc_count(client, index):
     """
     Returns the number of documents in an index
-
     :param client:
     :param index:
     :return:
@@ -180,4 +174,3 @@ if __name__ == '__main__':
 
     except NotFoundError:
         print('Index %s does not exists' % index)
-
