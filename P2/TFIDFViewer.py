@@ -89,7 +89,6 @@ def toTFIDF(client, index, file):
         tfdi = w/max_freq
         wdi = tfdi * idfi
         tfidfw[t] = wdi
-        pass
 
     return normalize(tfidfw)
 
@@ -99,9 +98,10 @@ def print_term_weigth_vector(twv):
     :param twv:
     :return:
     """
-    #
-    # Something happens here black magic and stuff
-    #
+    print("Weight of the vector: ")
+    for (twvi, twvj) in twv:
+        print(twvi)
+    print("End of Weight of the vector")
     pass
 
 
@@ -116,7 +116,7 @@ def normalize(tw):
     for ti in tw:
         count += ti*ti
     count = sqrt(count)
-    for i in range(0,len(tw)-1):
+    for i in range(0,len(tw)):
         tw[i] = tw[i]/count
         
     return tw
@@ -132,7 +132,11 @@ def cosine_similarity(tw1, tw2):
     #
     # Something happens here black magic and stuff
     #
-    return 0
+    haha = 0
+    for t1, t2 in zip(tw1, tw2):
+        haha += t1 * t2
+    
+    return haha
 
 def doc_count(client, index):
     """
@@ -174,7 +178,7 @@ if __name__ == '__main__':
             print_term_weigth_vector(file2_tw)
             print ('---------------------')
 
-        print("Similarity = %3.5f" % cosine_similarity(file1_tw, file2_tw))
+        #print("Similarity = %3.5f" % cosine_similarity(file1_tw, file2_tw))
 
     except NotFoundError:
         print('Index %s does not exists' % index)
