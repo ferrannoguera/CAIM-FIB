@@ -112,10 +112,14 @@ def normalize(tw):
     :param tw:
     :return:
     """
-    #
-    # Something happens here black magic and stuff
-    #
-    return None
+    count = 0
+    for ti in tw:
+        count += ti*ti
+    count = sqrt(count)
+    for i in range(0,len(tw)-1):
+        tw[i] = tw[i]/count
+        
+    return tw
 
 
 def cosine_similarity(tw1, tw2):
