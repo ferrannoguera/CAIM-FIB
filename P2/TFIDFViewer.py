@@ -1,12 +1,18 @@
 """
 .. module:: TFIDFViewer
+
 TFIDFViewer
 ******
+
 :Description: TFIDFViewer
+
     Receives two paths of files to compare (the paths have to be the ones used when indexing the files)
+
 :Authors:
-    Ferran & Yeray
+    yarayyyferran
+
 :Version: 
+
 :Date:  05/07/2017
 """
 
@@ -18,15 +24,15 @@ from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import Q
 
 import argparse
-import math
 
 import numpy as np
 
-__author__ = 'ferranyyeray'
+__author__ = 'yarayyyferran'
 
 def search_file_by_path(client, index, path):
     """
     Search for a file using its path
+
     :param path:
     :return:
     """
@@ -47,6 +53,7 @@ def document_term_vector(client, index, id):
     Returns the term vector of a document and its statistics a two sorted list of pairs (word, count)
     The first one is the frequency of the term in the document, the second one is the number of documents
     that contain the term
+
     :param client:
     :param index:
     :param id:
@@ -65,14 +72,15 @@ def document_term_vector(client, index, id):
     return sorted(file_td.items()), sorted(file_df.items())
 
 
-def toTFIDF(client, index, file):
+def toTFIDF(client, index, file_id):
     """
     Returns the term weights of a document
     :param file:
     :return:
     """
     # Search for file id
-    file_id = search_file_by_path(client, index, file)
+    #file_id = search_file_by_path(client, index, file)
+    #joderdedeu
 
     # Get document terms frequency and overall terms document frequency
     #file_tv => frequency of the term in the document
@@ -85,10 +93,10 @@ def toTFIDF(client, index, file):
 
     tfidfw = []
     for (t, w),(_, df) in zip(file_tv, file_df):
-        idfi = log((dcount/df),2)
+        idfi = np.log2(dcount/df)
         tfdi = w/max_freq
         wdi = tfdi * idfi
-        tfidfw[t] = wdi
+        tfidfw.append(wdi)
 
     return normalize(tfidfw)
 
@@ -99,7 +107,7 @@ def print_term_weigth_vector(twv):
     :return:
     """
     print("Weight of the vector: ")
-    for (twvi, twvj) in twv:
+    for twvi in twv:
         print(twvi)
     print("End of Weight of the vector")
     pass
@@ -115,7 +123,7 @@ def normalize(tw):
     count = 0
     for ti in tw:
         count += ti*ti
-    count = sqrt(count)
+    count = np.sqrt(count)
     for i in range(0,len(tw)):
         tw[i] = tw[i]/count
         
@@ -135,12 +143,12 @@ def cosine_similarity(tw1, tw2):
     haha = 0
     for t1, t2 in zip(tw1, tw2):
         haha += t1 * t2
-    
     return haha
 
 def doc_count(client, index):
     """
     Returns the number of documents in an index
+
     :param client:
     :param index:
     :return:
@@ -160,7 +168,6 @@ if __name__ == '__main__':
 
     file1 = args.files[0]
     file2 = args.files[1]
-
     client = Elasticsearch()
 
     try:
@@ -178,7 +185,8 @@ if __name__ == '__main__':
             print_term_weigth_vector(file2_tw)
             print ('---------------------')
 
-        #print("Similarity = %3.5f" % cosine_similarity(file1_tw, file2_tw))
+        print("Similarity = %3.5f" % cosine_similarity(file1_tw, file2_tw))
 
     except NotFoundError:
         print('Index %s does not exists' % index)
+
