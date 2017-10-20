@@ -91,14 +91,15 @@ def toTFIDF(client, index, file_id):
     #dcount => num de documentos en indice
     dcount = doc_count(client, index)
 
+    terms = []
     tfidfw = []
     for (t, w),(_, df) in zip(file_tv, file_df):
         idfi = np.log2(dcount/df)
         tfdi = w/max_freq
         wdi = tfdi * idfi
+        terms.append(t)
         tfidfw.append(wdi)
-
-    return normalize(tfidfw)
+    return zip(terms,normalize(tfidfw))
 
 def print_term_weigth_vector(twv):
     """
@@ -107,10 +108,11 @@ def print_term_weigth_vector(twv):
     :return:
     """
     print("Weight of the vector: ")
-    for twvi in twv:
+    print (len(twv))
+    for (ttvi,twvi) in twv:
+        print(ttvi)
         print(twvi)
     print("End of Weight of the vector")
-    pass
 
 
 def normalize(tw):
@@ -140,10 +142,27 @@ def cosine_similarity(tw1, tw2):
     #
     # Something happens here black magic and stuff
     #
+    #haha = 0
+    #for t1, t2 in zip(tw1, tw2):
+        #haha += t1 * t2
+    #return haha
+    
+    #print(twv[0][1]) para first o second se coje la segunda 
+    
     haha = 0
-    for t1, t2 in zip(tw1, tw2):
-        haha += t1 * t2
+    i = 0
+    j = 0
+    while (i < len(tw1) and j < len(tw2)):
+        if (tw1[i][0] < tw2[j][0]): 
+            i += 1
+        elif (tw1[i][0] > tw2[j][0]):
+            j += 1
+        else:
+            haha += tw1[i][1] * tw2[j][1]
+            i += 1
+            j += 1
     return haha
+    
 
 def doc_count(client, index):
     """
