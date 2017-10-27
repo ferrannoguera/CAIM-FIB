@@ -1,0 +1,145 @@
+1-5
+Similarity = 0.12845
+Similarity = 0.12845
+Similarity = 0.12845
+Similarity = 0.12844
+Similarity = 0.10689
+Similarity = 0.10402
+Similarity = 0.11596
+1-2
+Similarity = 0.98292
+Similarity = 0.98292
+Similarity = 0.98292
+Similarity = 0.98292
+Similarity = 0.98589
+Similarity = 0.98683
+Similarity = 0.98510
+5-6
+Similarity = 0.00857
+Similarity = 0.00857
+Similarity = 0.00871
+Similarity = 0.00871
+Similarity = 0.00370
+Similarity = 0.00373
+Similarity = 0.00758
+poe
+Similarity = 0.57680
+Similarity = 0.57680
+Similarity = 0.57948
+Similarity = 0.42407
+Similarity = 0.61772
+Similarity = 0.61710
+Similarity = 0.60681
+
+
+
+
+
+
+1-2
+Similarity = 0.95752
+Similarity = 0.95752
+Similarity = 0.95752
+Similarity = 0.95751
+Similarity = 0.95125
+Similarity = 0.95208
+Similarity = 0.95383
+1-5
+Similarity = 0.14158
+Similarity = 0.14158
+Similarity = 0.14158
+Similarity = 0.14156
+Similarity = 0.12076
+Similarity = 0.12058
+Similarity = 0.12990
+5-6
+Similarity = 0.01024
+Similarity = 0.01024
+Similarity = 0.01024
+Similarity = 0.01024
+Similarity = 0.00552
+Similarity = 0.00557
+Similarity = 0.00913
+poe
+Similarity = 0.55392
+Similarity = 0.55392
+Similarity = 0.55392
+Similarity = 0.39014
+Similarity = 0.57490
+Similarity = 0.57422
+Similarity = 0.57244
+
+
+
+
+
+
+
+1-5
+Similarity = 0.13231
+Similarity = 0.13231
+Similarity = 0.13231
+Similarity = 0.13229
+Similarity = 0.11160
+Similarity = 0.10884
+Similarity = 0.12030
+1-2
+Similarity = 0.98253
+Similarity = 0.98253
+Similarity = 0.98253
+Similarity = 0.98253
+Similarity = 0.98500
+Similarity = 0.98593
+Similarity = 0.98445
+5-6
+Similarity = 0.00848
+Similarity = 0.00848
+Similarity = 0.00859
+Similarity = 0.00859
+Similarity = 0.00363
+Similarity = 0.00366
+Similarity = 0.00748
+poe
+Similarity = 0.58262
+Similarity = 0.58262
+Similarity = 0.58424
+Similarity = 0.42801
+Similarity = 0.61596
+Similarity = 0.62115
+Similarity = 0.61161
+
+
+
+
+1-2
+Similarity = 0.98253
+Similarity = 0.98253
+Similarity = 0.98253
+Similarity = 0.98253
+Similarity = 0.98500
+Similarity = 0.98593
+Similarity = 0.98445
+1-5
+Similarity = 0.13232
+Similarity = 0.13232
+Similarity = 0.13232
+Similarity = 0.13230
+Similarity = 0.11162
+Similarity = 0.10886
+Similarity = 0.12031
+5-6
+Similarity = 0.00848
+Similarity = 0.00848
+Similarity = 0.00859
+Similarity = 0.00859
+Similarity = 0.00364
+Similarity = 0.00367
+Similarity = 0.00749
+poe
+Similarity = 0.56940
+Similarity = 0.56940
+Similarity = 0.57091
+Similarity = 0.41432
+Similarity = 0.60355
+Similarity = 0.60876
+Similarity = 0.59721
