@@ -1,24 +1,17 @@
-"""
-.. module:: SearchIndexWeight
+import numpy
 
-SearchIndex
-*************
+alfa=1
+beta=0.5
+#hay que calcular el tfidf para todos los k documentos relevantes
+tfidfs = []
+#veces que se ejecuta rocchio
+nrounds = 1
+#valor arbitrario de k
+k = 10
 
-:Description: SearchIndexWeight
+def rocchio(q):
+    return alfa*q +beta * numpy.mean(tfidfs)
 
-    Performs a AND query for a list of words (--query) in the documents of an index (--index)
-    You can use word^number to change the importance of a word in the match
-
-    --nhits changes the number of documents to retrieve
-
-:Authors: bejar
-    
-
-:Version: 
-
-:Created on: 04/07/2017 10:56 
-
-"""
 from __future__ import print_function
 from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import NotFoundError
@@ -70,3 +63,17 @@ if __name__ == '__main__':
     except NotFoundError:
         print('Index %s does not exists' % index)
 
+"""
+
+if __name__ == '__main__':
+    #obtain query more relevant 
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--index', default=None, help='Index to search')
+    i=0
+    while i< nrounds:
+        #obtain k more relevant documents
+        
+        #newquery = rocchio(oldquery)
+        ++i
+    #print k most relevant documents"""
+        
