@@ -88,9 +88,10 @@ def toTFIDF(client, index, file_id):
     file_tv, file_df = document_term_vector(client, index, file_id)
     #max_freq => frequencia maxima termino
     max_freq = max([f for _, f in file_tv])
+    print(max_freq)
     #dcount => num de documentos en indice
     dcount = doc_count(client, index)
-
+    print(dcount)
     terms = []
     tfidfw = []
     for (t, w),(_, df) in zip(file_tv, file_df):
@@ -199,12 +200,12 @@ if __name__ == '__main__':
         if args.print:
             print('TFIDF FILE %s' % file1)
             print_term_weigth_vector(file1_tw)
-            print ('---------------------')
-            print('TFIDF FILE %s' % file2)
-            print_term_weigth_vector(file2_tw)
-            print ('---------------------')
+            #print ('---------------------')
+            #print('TFIDF FILE %s' % file2)
+            #print_term_weigth_vector(file2_tw)
+            #print ('---------------------')
 
-        print("Similarity = %3.5f" % cosine_similarity(file1_tw, file2_tw))
+        #print("Similarity = %3.5f" % cosine_similarity(file1_tw, file2_tw))
 
     except NotFoundError:
         print('Index %s does not exists' % index)
