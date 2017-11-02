@@ -24,7 +24,7 @@ tfidfs = []
 #veces que se ejecuta rocchio
 nrounds = 1
 #valor arbitrario de k
-k = 1
+k = 2
 #docs => k docs that matter
 docs = []
 
@@ -73,23 +73,23 @@ def toTFIDF(client, index, file_id):
     """
     file_tv, file_df = document_term_vector(client, index, file_id)
     max_freq = max([f for _, f in file_tv])
-    print('max_freq %s' % max_freq)
+    #print('max_freq %s' % max_freq)
     dcount = doc_count(client, index)
-    print('dcount %s' % dcount)
+    #print('dcount %s' % dcount)
     terms = []
     tfidfw = []
-    print("START")
+    #print("START")
     for (t, w),(_, df) in zip(file_tv, file_df):
         idfi = float(np.log2(dcount/df))
-        print('df %s' % df)
-        print('idfi %s' % idfi)
+        #print('df %s' % df)
+        #print('idfi %s' % idfi)
         tfdi = float(w/max_freq)
-        print('w %s' % w)
-        print('tfdi %s' % tfdi)
+        #print('w %s' % w)
+        #print('tfdi %s' % tfdi)
         wdi = tfdi * idfi
         terms.append(t)
         tfidfw.append(wdi)
-    return zip(terms,normalize(tfidfw))
+    return zip(terms,(tfidfw)) #treta la normalitzacio
 
 
 def normalize(tw):
@@ -125,6 +125,15 @@ def print_term_weigth_vector(twv):
 
 def rocchio(q):
     return alfa*q +beta * numpy.mean(tfidfs)
+
+
+def sumar_l(l1,l2):
+    l1 = dict(l1)
+    l2 = dict(l2)
+    newdict = {}
+    for key, value in l1.iteritems():
+        newdict.append({key,value+l2[key]})
+    return newlist = list(newdict)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -162,13 +171,27 @@ if __name__ == '__main__':
     except NotFoundError:
         print('Index %s does not exists' % index)
         
-    while k != 0:
-        print(docs[k])
-        k -= 1
+    print('DOCUMENTS USATS:')
+    tmp = k
+    while tmp != 0:
+        print(docs[tmp])
+        tmp -= 1
     print('---------------------------------------')
     
+    oldd = {}
+    while (nrounds != 0):
+        for i in range(0,k):
+            newd = toTFIDF(client, index, docs[i])
+            print('NEWD')
+            print_term_weigth_vector(newd)
+            oldd = sumar_l(oldd,newd)
+            print('OLDD')
+            print_term_weigth_vector(oldd)
+        #tfidfs = normalize(oldd/k)
+        #print_term_weigth_vector(tfidfs)
+        nrounds-=1
     
-    file1_tw = toTFIDF(client, index, docs[0])
+    #file1_tw = toTFIDF(client, index, docs[0])
     #print_term_weigth_vector(file1_tw)
     #print('---------------------------------------')
     #file1_tw = toTFIDF(client, index, docs[1])

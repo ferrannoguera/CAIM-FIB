@@ -88,20 +88,20 @@ def toTFIDF(client, index, file_id):
     file_tv, file_df = document_term_vector(client, index, file_id)
     #max_freq => frequencia maxima termino
     max_freq = max([f for _, f in file_tv])
-    print(max_freq)
+    #print(max_freq)
     #dcount => num de documentos en indice
     dcount = doc_count(client, index)
-    print(dcount)
+    #print(dcount)
     terms = []
     tfidfw = []
-    print("START")
+    #print("START")
     for (t, w),(_, df) in zip(file_tv, file_df):
         idfi = np.log2(dcount/df)
-        print('df %s' % df)
-        print('idfi %s' % idfi)
+        #print('df %s' % df)
+        #print('idfi %s' % idfi)
         tfdi = w/max_freq
-        print('w %s' % w)
-        print('tfdi %s' % tfdi)
+        #print('w %s' % w)
+        #print('tfdi %s' % tfdi)
         wdi = tfdi * idfi
         terms.append(t)
         tfidfw.append(wdi)
