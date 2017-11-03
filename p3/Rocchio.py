@@ -28,6 +28,8 @@ k = 2
 #docs => k docs that matter
 docs = []
 
+R = 10
+
 
 def document_term_vector(client, index, id):
     """
@@ -167,7 +169,15 @@ if __name__ == '__main__':
     index = args.index
     query = args.query
     print(query)
-    rocchioquery = query
+    
+    #valroc = []
+    #for i in range(0,len(query)):
+        #print ("patata")
+        
+    #rocchioquery = zip(query,normalize(valroc))
+    #print_term_weigth_vector(rocchioquery)
+    #coses estupides ftw
+    
     while (nrounds != 0):
         try:
             client = Elasticsearch()
@@ -209,8 +219,12 @@ if __name__ == '__main__':
             oldd = sumar_l(newd,oldd)
             print('OLDD')
             print_term_weigth_vector(oldd)
-        #tfidfs = normalize(oldd/k)
-        #print_term_weigth_vector(tfidfs)
+        for i in range(0,len(oldd)):
+            oldd[i] = (oldd[i][0],oldd[i][1]*beta/k)
+        print('AFTER DIVIDING')
+        print_term_weigth_vector(oldd)
+        #s'ha de normalizar i llavors zippejar, tenint en compte que normalize no accepta parells, sino llistes soles, tonteries de la vida.
+
         nrounds-=1
 
         
