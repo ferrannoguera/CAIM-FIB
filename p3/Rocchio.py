@@ -228,15 +228,15 @@ if __name__ == '__main__':
                 s = s.query(q)
                 response = s[0:(k+1)].execute()
                 for r in response:  # only returns a specific number of results
-                    print('ID= %s SCORE=%s' % (r.meta.id,  r.meta.score))
-                    print('PATH= %s' % r.path)
-                    print('-----------------------------------------------------------------')
+                    #print('ID= %s SCORE=%s' % (r.meta.id,  r.meta.score))
+                    #print('PATH= %s' % r.path)
+                    #print('-----------------------------------------------------------------')
                     docs.append(r.meta.id)
 
             else:
                 print('No query parameters passed')
 
-            print ('%d Documents'% response.hits.total)
+            #print ('%d Documents'% response.hits.total)
             if response.hits.total < k:
                 docsusats = response.hits.total
             else:
@@ -259,10 +259,14 @@ if __name__ == '__main__':
         #print('AFTER NORMALIZING')
         oldd = normalize(oldd)
         #print('AFTER SUMING')
-        oldd = sumar_l(rocquery,oldd)
+        #print('rocquery')
+        print_term_weigth_vector(rocquery)
+        oldd = sumar_l(sorted(rocquery),oldd)
+        #print('oldd asdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdfasdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdfasdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdfasdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdf')
         #print_term_weigth_vector(oldd)
-        print('AFTER ORDERING')
-        print_term_weigth_vector(sorted(oldd,key=lambda x:(-x[1],x[0])))
+        
+        #print('AFTER ORDERING')
+        #print_term_weigth_vector(sorted(oldd,key=lambda x:(-x[1],x[0])))
                            
         #s'ha de normalizar i llavors zippejar, tenint en compte que normalize no accepta parells, sino llistes soles, tonteries de la vida.
 
