@@ -24,7 +24,7 @@ tfidfs = []
 #veces que se ejecuta rocchio
 nrounds = 1
 #valor arbitrario de k
-k = 2
+k = 2 
 #docs => k docs that matter
 docs = []
 
@@ -126,14 +126,36 @@ def print_term_weigth_vector(twv):
 def rocchio(q):
     return alfa*q +beta * numpy.mean(tfidfs)
 
-
+#l1 newd
+#l2 oldd -> will be empty on first iterate
 def sumar_l(l1,l2):
-    l1 = dict(l1)
-    l2 = dict(l2)
-    newdict = {}
-    for key, value in l1.iteritems():
-        newdict.append({key,value+l2[key]})
-    return newlist = list(newdict)
+    #first iteration
+    if not bool(l2):
+        return l1
+    #n iterations
+    else:
+        i = 0
+        j = 0
+        a_ret = []
+        #print(twv[0][1]) para first o second se coje la segunda 
+        while (i < len(l1) and j < len(l2)):
+            if (l1[i][0] < l2[j][0]): 
+                a_ret.append(l1[i])
+                i += 1
+            elif (l1[i][0] > l2[j][0]):
+                a_ret.append(l2[j])
+                j += 1
+            else:
+                a_ret.append((l1[i][0],l1[i][1]+l2[j][1]))
+                i += 1
+                j += 1
+        if i == len(l1):
+            for k in range(j,len(l2)):
+                a_ret.append(l2[k])
+        elif j == len(l2):
+            for k in range(i,len(l1)):
+                a_ret.append(l1[k])
+        return a_ret
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -145,70 +167,50 @@ if __name__ == '__main__':
     index = args.index
     query = args.query
     print(query)
-
-    try:
-        client = Elasticsearch()
-        s = Search(using=client, index=index)
-
-        if query is not None:
-            q = Q('query_string',query=query[0])
-            for i in range(1, len(query)):
-                q &= Q('query_string',query=query[i])
-
-            s = s.query(q)
-            response = s[0:(k+1)].execute()
-            for r in response:  # only returns a specific number of results
-                print('ID= %s SCORE=%s' % (r.meta.id,  r.meta.score))
-                print('PATH= %s' % r.path)
-                print('-----------------------------------------------------------------')
-                docs.append(r.meta.id)
-
-        else:
-            print('No query parameters passed')
-
-        print ('%d Documents'% response.hits.total)
-
-    except NotFoundError:
-        print('Index %s does not exists' % index)
-        
-    print('DOCUMENTS USATS:')
-    tmp = k
-    while tmp != 0:
-        print(docs[tmp])
-        tmp -= 1
-    print('---------------------------------------')
-    
-    oldd = {}
+    rocchioquery = query
     while (nrounds != 0):
+        try:
+            client = Elasticsearch()
+            s = Search(using=client, index=index)
+
+            if query is not None:
+                q = Q('query_string',query=query[0])
+                for i in range(1, len(query)):
+                    q &= Q('query_string',query=query[i])
+
+                s = s.query(q)
+                response = s[0:(k+1)].execute()
+                for r in response:  # only returns a specific number of results
+                    print('ID= %s SCORE=%s' % (r.meta.id,  r.meta.score))
+                    print('PATH= %s' % r.path)
+                    print('-----------------------------------------------------------------')
+                    docs.append(r.meta.id)
+
+            else:
+                print('No query parameters passed')
+
+            print ('%d Documents'% response.hits.total)
+
+        except NotFoundError:
+            print('Index %s does not exists' % index)
+            
+        print('DOCUMENTS USATS:')
+        tmp = k
+        while tmp != 0:
+            print(docs[tmp])
+            tmp -= 1
+        print('---------------------------------------')
+        
+        oldd = []
         for i in range(0,k):
             newd = toTFIDF(client, index, docs[i])
             print('NEWD')
             print_term_weigth_vector(newd)
-            oldd = sumar_l(oldd,newd)
+            oldd = sumar_l(newd,oldd)
             print('OLDD')
             print_term_weigth_vector(oldd)
         #tfidfs = normalize(oldd/k)
         #print_term_weigth_vector(tfidfs)
         nrounds-=1
-    
-    #file1_tw = toTFIDF(client, index, docs[0])
-    #print_term_weigth_vector(file1_tw)
-    #print('---------------------------------------')
-    #file1_tw = toTFIDF(client, index, docs[1])
-    #print_term_weigth_vector(file1_tw)
 
-
-"""
-
-if __name__ == '__main__':
-    #obtain query more relevant 
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--index', default=None, help='Index to search')
-    i=0
-    while i< nrounds:
-        #obtain k more relevant documents
-        
-        #newquery = rocchio(oldquery)
-        ++i
-    #print k most relevant documents"""
         
