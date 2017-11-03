@@ -7,6 +7,7 @@ from elasticsearch.exceptions import NotFoundError
 from elasticsearch.client import CatClient
 from elasticsearch_dsl import Search
 from elasticsearch_dsl.query import Q
+from operator import itemgetter
 
 import argparse
 
@@ -18,18 +19,19 @@ __author__ = 'ferranyguillem'
 
 
 alfa=1
-beta=0.5
+beta=0.8
 #hay que calcular el tfidf para todos los k documentos relevantes
 tfidfs = []
 #veces que se ejecuta rocchio
-nrounds = 1
+nrounds = 5
 #valor arbitrario de k
-k = 2 
+k = 50 
 #docs => k docs that matter
 docs = []
 
-R = 10
+R = 5
 
+oldd = []
 
 def document_term_vector(client, index, id):
     """
@@ -103,10 +105,10 @@ def normalize(tw):
     """
     count = 0
     for ti in tw:
-        count += ti*ti
+        count += ti[1]*ti[1]
     count = np.sqrt(count)
     for i in range(0,len(tw)):
-        tw[i] = tw[i]/count
+        tw[i] = (tw[i][0],tw[i][1]/count)
         
     return tw
 
@@ -158,6 +160,24 @@ def sumar_l(l1,l2):
             for k in range(i,len(l1)):
                 a_ret.append(l1[k])
         return a_ret
+    
+    
+def actualitzarrocquery():
+    q = []
+    temporal = sorted(oldd,key=lambda x:(-x[1],x[0]))
+    for i in range(0,R):
+        q.append(temporal[i])
+    return q
+  
+
+def actualitzarquery():
+    q = []
+    temporal = sorted(oldd,key=lambda x:(-x[1],x[0]))
+    for i in range(0,R):
+        q.append(temporal[i][0])
+    return q
+  
+    
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -170,16 +190,33 @@ if __name__ == '__main__':
     query = args.query
     print(query)
     
-    #valroc = []
-    #for i in range(0,len(query)):
-        #print ("patata")
-        
-    #rocchioquery = zip(query,normalize(valroc))
-    #print_term_weigth_vector(rocchioquery)
-    #coses estupides ftw
-    
+    rocquery = []
+    for i in range(0,len(query)):
+        if (len(query[i]) > 2):
+            if query[i][len(query[i])-2] == '^':
+                tmp = int(query[i][len(query[i])-1])
+                rocquery.append(((query[i][0:len(query[i])-2]),tmp*alfa))
+            else:
+                rocquery.append((query[i],1*alfa))
+        else:
+            rocquery.append((query[i],1*alfa))
+    print('ROCCHIO VECTOR')
+    rocquery = normalize(rocquery)
+    print_term_weigth_vector(rocquery)   
+    first_time = True
     while (nrounds != 0):
+        docsusats = 0
+        
         try:
+            if not first_time:
+                rocquery = actualitzarrocquery()
+                print('ROCCHIO VECTOR ACTU')
+                print_term_weigth_vector(rocquery)
+                query = actualitzarquery()
+                
+            else:
+                first_time = False
+            
             client = Elasticsearch()
             s = Search(using=client, index=index)
 
@@ -200,29 +237,33 @@ if __name__ == '__main__':
                 print('No query parameters passed')
 
             print ('%d Documents'% response.hits.total)
-
+            if response.hits.total < k:
+                docsusats = response.hits.total
+            else:
+                docsusats = k
+                    
         except NotFoundError:
             print('Index %s does not exists' % index)
             
-        print('DOCUMENTS USATS:')
-        tmp = k
-        while tmp != 0:
-            print(docs[tmp])
-            tmp -= 1
-        print('---------------------------------------')
-        
-        oldd = []
-        for i in range(0,k):
+        for i in range(0,docsusats):
             newd = toTFIDF(client, index, docs[i])
-            print('NEWD')
-            print_term_weigth_vector(newd)
+            #print('NEWD')
+            #print_term_weigth_vector(newd)
             oldd = sumar_l(newd,oldd)
-            print('OLDD')
-            print_term_weigth_vector(oldd)
+            #print('OLDD')
+            #print_term_weigth_vector(oldd)
         for i in range(0,len(oldd)):
             oldd[i] = (oldd[i][0],oldd[i][1]*beta/k)
-        print('AFTER DIVIDING')
-        print_term_weigth_vector(oldd)
+        #print('AFTER DIVIDING')
+        #print_term_weigth_vector(oldd)
+        #print('AFTER NORMALIZING')
+        oldd = normalize(oldd)
+        #print('AFTER SUMING')
+        oldd = sumar_l(rocquery,oldd)
+        #print_term_weigth_vector(oldd)
+        print('AFTER ORDERING')
+        print_term_weigth_vector(sorted(oldd,key=lambda x:(-x[1],x[0])))
+                           
         #s'ha de normalizar i llavors zippejar, tenint en compte que normalize no accepta parells, sino llistes soles, tonteries de la vida.
 
         nrounds-=1
