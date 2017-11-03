@@ -1,124 +1,137 @@
-['toronto', 'vancouver']
+['intel^2', 'hardware', 'device']
 ROCCHIO VECTOR
 Weight of the vector: 
-2
-toronto
-0.707106781187
-vancouver
-0.707106781187
+3
+intel
+0.816496580928
+hardware
+0.408248290464
+device
+0.408248290464
 End of Weight of the vector
-Weight of the vector: 
-2
-toronto
-0.707106781187
-vancouver
-0.707106781187
-End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003681
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004532
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003249
+PATH= /tmp/20_newsgroups/comp.windows.x/0005777
+PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+PATH= /tmp/20_newsgroups/comp.graphics/0001690
+PATH= /tmp/20_newsgroups/comp.graphics/0001214
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003124
+8 Documents
 ROCCHIO VECTOR ACTU
 Weight of the vector: 
 5
-vancouver
-0.928936524747
-toronto
-0.904721067715
-detroit
-0.236183469719
-1
-0.174447274651
-0
-0.173940228871
+intel
+0.763500896855
+device
+0.356317024351
+hardware
+0.356317024351
+xfree
+0.334303317191
+os
+0.226680455561
 End of Weight of the vector
-Weight of the vector: 
-5
-vancouver
-0.928936524747
-toronto
-0.904721067715
-detroit
-0.236183469719
-1
-0.174447274651
-0
-0.173940228871
-End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.windows.x/0005777
+PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+2 Documents
 ROCCHIO VECTOR ACTU
 Weight of the vector: 
 5
-vancouver
-1.21149514107
-toronto
-1.18819275707
-detroit
-0.559184316681
-1
-0.38312958799
-0
-0.324563184831
+intel
+0.740177159729
+os
+0.404976130426
+device
+0.316286313345
+hardware
+0.316286313345
+xfree
+0.2967457531
 End of Weight of the vector
-Weight of the vector: 
-5
-vancouver
-1.21149514107
-toronto
-1.18819275707
-detroit
-0.559184316681
-1
-0.38312958799
-0
-0.324563184831
-End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.windows.x/0005777
+PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+2 Documents
 ROCCHIO VECTOR ACTU
 Weight of the vector: 
 5
-vancouver
-1.49644109394
-toronto
-1.4740594975
-detroit
-0.884914196409
-1
-0.593575057297
-0
-0.476458753498
+intel
+0.699080044315
+os
+0.544238308595
+device
+0.273272829765
+hardware
+0.273272829765
+xfree
+0.256389695819
 End of Weight of the vector
-Weight of the vector: 
-5
-vancouver
-1.49644109394
-toronto
-1.4740594975
-detroit
-0.884914196409
-1
-0.593575057297
-0
-0.476458753498
-End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.windows.x/0005777
+PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+2 Documents
 ROCCHIO VECTOR ACTU
 Weight of the vector: 
 5
-vancouver
-1.78403605151
-toronto
-1.76258380277
-detroit
-1.21367222929
-1
-0.805976936351
-0
-0.629766421804
+os
+0.650566512868
+intel
+0.650056872817
+device
+0.231372454994
+hardware
+0.231372454994
+xfree
+0.217077978106
 End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.windows.x/0005777
+PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+2 Documents
+ROCCHIO VECTOR ACTU
 Weight of the vector: 
 5
-vancouver
-1.78403605151
-toronto
-1.76258380277
-detroit
-1.21367222929
-1
-0.805976936351
-0
-0.629766421804
+os
+0.728090349493
+intel
+0.598531449726
+mac
+0.193293975875
+device
+0.192719985411
+hardware
+0.192719985411
 End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004532
+PATH= /tmp/20_newsgroups/comp.graphics/0001690
+PATH= /tmp/20_newsgroups/comp.graphics/0001214
+3 Documents
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+5
+os
+0.730804664472
+intel
+0.534202485507
+mac
+0.302746208238
+scsi
+0.255533140668
+device
+0.153622245403
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004532
+1 Documents
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+5
+os
+0.689557116902
+intel
+0.566589249926
+mac
+0.285658826024
+gunnarh
+0.252492286267
+scsi
+0.241110524218
+End of Weight of the vector
+0 Documents

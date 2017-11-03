@@ -23,9 +23,9 @@ beta=0.8
 #hay que calcular el tfidf para todos los k documentos relevantes
 tfidfs = []
 #veces que se ejecuta rocchio
-nrounds = 5
+nrounds = 8
 #valor arbitrario de k
-k = 50 
+k = 69 
 #docs => k docs that matter
 docs = []
 
@@ -127,8 +127,6 @@ def print_term_weigth_vector(twv):
     print("End of Weight of the vector")
 
 
-def rocchio(q):
-    return alfa*q +beta * numpy.mean(tfidfs)
 
 #l1 newd
 #l2 oldd -> will be empty on first iterate
@@ -210,10 +208,10 @@ if __name__ == '__main__':
         try:
             if not first_time:
                 rocquery = actualitzarrocquery()
+                rocquery = normalize(rocquery)
                 print('ROCCHIO VECTOR ACTU')
                 print_term_weigth_vector(rocquery)
                 query = actualitzarquery()
-                
             else:
                 first_time = False
             
@@ -229,14 +227,14 @@ if __name__ == '__main__':
                 response = s[0:(k+1)].execute()
                 for r in response:  # only returns a specific number of results
                     #print('ID= %s SCORE=%s' % (r.meta.id,  r.meta.score))
-                    #print('PATH= %s' % r.path)
+                    print('PATH= %s' % r.path)
                     #print('-----------------------------------------------------------------')
                     docs.append(r.meta.id)
 
             else:
                 print('No query parameters passed')
 
-            #print ('%d Documents'% response.hits.total)
+            print ('%d Documents'% response.hits.total)
             if response.hits.total < k:
                 docsusats = response.hits.total
             else:
@@ -247,29 +245,11 @@ if __name__ == '__main__':
             
         for i in range(0,docsusats):
             newd = toTFIDF(client, index, docs[i])
-            #print('NEWD')
-            #print_term_weigth_vector(newd)
             oldd = sumar_l(newd,oldd)
-            #print('OLDD')
-            #print_term_weigth_vector(oldd)
         for i in range(0,len(oldd)):
             oldd[i] = (oldd[i][0],oldd[i][1]*beta/k)
-        #print('AFTER DIVIDING')
-        #print_term_weigth_vector(oldd)
-        #print('AFTER NORMALIZING')
         oldd = normalize(oldd)
-        #print('AFTER SUMING')
-        #print('rocquery')
-        print_term_weigth_vector(rocquery)
         oldd = sumar_l(sorted(rocquery),oldd)
-        #print('oldd asdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdfasdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdfasdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdfasdfffasdfasdfasdfasdfsadfsadfsadfasdfsadfasdfasdfsdf')
-        #print_term_weigth_vector(oldd)
-        
-        #print('AFTER ORDERING')
-        #print_term_weigth_vector(sorted(oldd,key=lambda x:(-x[1],x[0])))
-                           
-        #s'ha de normalizar i llavors zippejar, tenint en compte que normalize no accepta parells, sino llistes soles, tonteries de la vida.
-
         nrounds-=1
 
         
