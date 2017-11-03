@@ -1,137 +1,61 @@
-['intel^2', 'hardware', 'device']
+['hockey']
 ROCCHIO VECTOR
 Weight of the vector: 
-3
-intel
-0.816496580928
-hardware
-0.408248290464
-device
-0.408248290464
+1
+hockey
+1.0
 End of Weight of the vector
-PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003681
-PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004532
-PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003249
-PATH= /tmp/20_newsgroups/comp.windows.x/0005777
-PATH= /tmp/20_newsgroups/comp.windows.x/0005002
-PATH= /tmp/20_newsgroups/comp.graphics/0001690
-PATH= /tmp/20_newsgroups/comp.graphics/0001214
-PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003124
-8 Documents
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010168
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010584
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010404
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010986
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010804
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010305
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010853
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010612
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010136
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010428
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010527
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010919
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010921
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010888
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010869
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010861
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010794
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010694
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010577
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010716
+1021 Documents
 ROCCHIO VECTOR ACTU
 Weight of the vector: 
 5
-intel
-0.763500896855
-device
-0.356317024351
-hardware
-0.356317024351
-xfree
-0.334303317191
-os
-0.226680455561
+hockey
+1.0
+hockei
+0.606200529305
+ahl
+0.299468778075
+espn
+0.246751629085
+champ
+0.178596091986
 End of Weight of the vector
-PATH= /tmp/20_newsgroups/comp.windows.x/0005777
-PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010832
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010120
 2 Documents
 ROCCHIO VECTOR ACTU
 Weight of the vector: 
 5
-intel
-0.740177159729
-os
-0.404976130426
-device
-0.316286313345
-hardware
-0.316286313345
-xfree
-0.2967457531
+hockei
+1.02180128249
+hockey
+0.847405876823
+espn
+0.538052336164
+ahl
+0.253771602466
+filinuk
+0.253197948624
 End of Weight of the vector
-PATH= /tmp/20_newsgroups/comp.windows.x/0005777
-PATH= /tmp/20_newsgroups/comp.windows.x/0005002
-2 Documents
-ROCCHIO VECTOR ACTU
-Weight of the vector: 
-5
-intel
-0.699080044315
-os
-0.544238308595
-device
-0.273272829765
-hardware
-0.273272829765
-xfree
-0.256389695819
-End of Weight of the vector
-PATH= /tmp/20_newsgroups/comp.windows.x/0005777
-PATH= /tmp/20_newsgroups/comp.windows.x/0005002
-2 Documents
-ROCCHIO VECTOR ACTU
-Weight of the vector: 
-5
-os
-0.650566512868
-intel
-0.650056872817
-device
-0.231372454994
-hardware
-0.231372454994
-xfree
-0.217077978106
-End of Weight of the vector
-PATH= /tmp/20_newsgroups/comp.windows.x/0005777
-PATH= /tmp/20_newsgroups/comp.windows.x/0005002
-2 Documents
-ROCCHIO VECTOR ACTU
-Weight of the vector: 
-5
-os
-0.728090349493
-intel
-0.598531449726
-mac
-0.193293975875
-device
-0.192719985411
-hardware
-0.192719985411
-End of Weight of the vector
-PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004532
-PATH= /tmp/20_newsgroups/comp.graphics/0001690
-PATH= /tmp/20_newsgroups/comp.graphics/0001214
-3 Documents
-ROCCHIO VECTOR ACTU
-Weight of the vector: 
-5
-os
-0.730804664472
-intel
-0.534202485507
-mac
-0.302746208238
-scsi
-0.255533140668
-device
-0.153622245403
-End of Weight of the vector
-PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004532
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010832
 1 Documents
-ROCCHIO VECTOR ACTU
-Weight of the vector: 
-5
-os
-0.689557116902
-intel
-0.566589249926
-mac
-0.285658826024
-gunnarh
-0.252492286267
-scsi
-0.241110524218
-End of Weight of the vector
-0 Documents

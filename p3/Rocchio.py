@@ -23,9 +23,9 @@ beta=0.8
 #hay que calcular el tfidf para todos los k documentos relevantes
 tfidfs = []
 #veces que se ejecuta rocchio
-nrounds = 8
+nrounds = 3
 #valor arbitrario de k
-k = 69 
+k = 20 
 #docs => k docs that matter
 docs = []
 
@@ -208,9 +208,11 @@ if __name__ == '__main__':
         try:
             if not first_time:
                 rocquery = actualitzarrocquery()
-                rocquery = normalize(rocquery)
                 print('ROCCHIO VECTOR ACTU')
                 print_term_weigth_vector(rocquery)
+                for i in range(0,len(rocquery)):
+                    rocquery[i] = (rocquery[i][0],rocquery[i][1]*alfa)
+                rocquery = normalize(rocquery)
                 query = actualitzarquery()
             else:
                 first_time = False
@@ -224,7 +226,7 @@ if __name__ == '__main__':
                     q &= Q('query_string',query=query[i])
 
                 s = s.query(q)
-                response = s[0:(k+1)].execute()
+                response = s[0:(k)].execute()
                 for r in response:  # only returns a specific number of results
                     #print('ID= %s SCORE=%s' % (r.meta.id,  r.meta.score))
                     print('PATH= %s' % r.path)
@@ -247,7 +249,7 @@ if __name__ == '__main__':
             newd = toTFIDF(client, index, docs[i])
             oldd = sumar_l(newd,oldd)
         for i in range(0,len(oldd)):
-            oldd[i] = (oldd[i][0],oldd[i][1]*beta/k)
+            oldd[i] = (oldd[i][0],oldd[i][1]*beta/docsusats)
         oldd = normalize(oldd)
         oldd = sumar_l(sorted(rocquery),oldd)
         nrounds-=1
