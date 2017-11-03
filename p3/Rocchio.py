@@ -23,13 +23,13 @@ beta=0.8
 #hay que calcular el tfidf para todos los k documentos relevantes
 tfidfs = []
 #veces que se ejecuta rocchio
-nrounds = 3
+nrounds = 10
 #valor arbitrario de k
 k = 20 
 #docs => k docs that matter
 docs = []
 
-R = 5
+R = 4
 
 oldd = []
 
@@ -241,6 +241,9 @@ if __name__ == '__main__':
                 docsusats = response.hits.total
             else:
                 docsusats = k
+            if response.hits.total == 0:
+                raise Exception("No Documents found")
+                
                     
         except NotFoundError:
             print('Index %s does not exists' % index)
@@ -249,9 +252,10 @@ if __name__ == '__main__':
             newd = toTFIDF(client, index, docs[i])
             oldd = sumar_l(newd,oldd)
         for i in range(0,len(oldd)):
-            oldd[i] = (oldd[i][0],oldd[i][1]*beta/docsusats)
+            oldd[i] = (oldd[i][0],oldd[i][1]*beta/k)
         oldd = normalize(oldd)
         oldd = sumar_l(sorted(rocquery),oldd)
         nrounds-=1
+        print('NROUND: %s' % nrounds)
 
         

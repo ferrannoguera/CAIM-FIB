@@ -1,0 +1,185 @@
+['wizard', 'spell', 'water']
+ROCCHIO VECTOR
+Weight of the vector: 
+3
+wizard
+0.57735026919
+spell
+0.57735026919
+water
+0.57735026919
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter3.txt
+PATH= /tmp/novels//PoeWorksVol2.txt
+PATH= /tmp/novels//pg17326.txt
+6 Documents
+NROUND: 9
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+wizard
+0.634979551396
+harri
+0.625793962843
+spell
+0.583115886233
+water
+0.578112748448
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter3.txt
+PATH= /tmp/novels//pg17326.txt
+5 Documents
+NROUND: 8
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.15462991936
+wizard
+0.655080892712
+spell
+0.559733029571
+water
+0.550364707896
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter3.txt
+PATH= /tmp/novels//pg17326.txt
+5 Documents
+NROUND: 7
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.42372058853
+wizard
+0.552799156729
+spell
+0.435399893587
+water
+0.423780520732
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter3.txt
+PATH= /tmp/novels//pg17326.txt
+5 Documents
+NROUND: 6
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.56236863956
+wizard
+0.450144580728
+ron
+0.369373297645
+spell
+0.321416671774
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter3.txt
+PATH= /tmp/novels//pg17326.txt
+5 Documents
+NROUND: 5
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.6273116168
+ron
+0.583135946814
+wizard
+0.365946110737
+hermion
+0.305265106238
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter3.txt
+4 Documents
+NROUND: 4
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.61456047038
+ron
+0.711736987897
+hermion
+0.471791545006
+wizard
+0.293764208628
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter3.txt
+4 Documents
+NROUND: 3
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.57186081825
+ron
+0.782596030153
+hermion
+0.573070478322
+wizard
+0.239316094355
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter3.txt
+4 Documents
+NROUND: 2
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.53615927991
+ron
+0.825092655317
+hermion
+0.636505290956
+hagrid
+0.203335662159
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter3.txt
+4 Documents
+NROUND: 1
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+harri
+1.50992534854
+ron
+0.851175756682
+hermion
+0.676593197072
+hagrid
+0.311893312941
+End of Weight of the vector
+PATH= /tmp/novels//harrypotter1.txt
+PATH= /tmp/novels//harrypotter2.txt
+PATH= /tmp/novels//harrypotter5.txt
+PATH= /tmp/novels//harrypotter3.txt
+4 Documents
+NROUND: 0

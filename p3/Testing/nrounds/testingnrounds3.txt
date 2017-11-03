@@ -1,0 +1,1112 @@
+['toronto', 'vancouver']
+ROCCHIO VECTOR
+Weight of the vector: 
+2
+toronto
+0.707106781187
+vancouver
+0.707106781187
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010206
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010239
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010208
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010488
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010977
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010858
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010252
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010396
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010242
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010738
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010011
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010184
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010287
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010822
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010621
+45 Documents
+NROUND: 49
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+toronto
+0.958656547999
+vancouver
+0.707106781187
+detroit
+0.345132414815
+vancouv
+0.341089790037
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010206
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010252
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010488
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010239
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010977
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010858
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010738
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010242
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010621
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010689
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010396
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010287
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010822
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010218
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010160
+32 Documents
+NROUND: 48
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+toronto
+1.00107715251
+detroit
+0.613054614834
+vancouv
+0.60587374839
+vancouver
+0.554252285342
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010206
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010252
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010488
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010239
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010977
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010858
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010738
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010242
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010621
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010689
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010396
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010287
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010822
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010218
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010160
+32 Documents
+NROUND: 47
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+toronto
+0.954527989704
+detroit
+0.773958712433
+vancouv
+0.764893134894
+vancouver
+0.390428168077
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010206
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010252
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010488
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010239
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010977
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010858
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010738
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010242
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010621
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010689
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010396
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010287
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010822
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010218
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010160
+32 Documents
+NROUND: 46
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+toronto
+0.891964561599
+detroit
+0.863075915292
+vancouv
+0.852966485025
+vancouver
+0.262911665048
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010206
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010252
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010488
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010239
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010977
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010858
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010738
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010242
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010621
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010689
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010396
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010287
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010822
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010218
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010160
+32 Documents
+NROUND: 45
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+0.911852547946
+vancouv
+0.901171784431
+toronto
+0.838253987277
+pp
+0.175520405618
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 44
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+0.979581316169
+vancouv
+0.944455792966
+toronto
+0.81785614477
+pp
+0.322465585932
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 43
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+0.99295498277
+vancouv
+0.94277877924
+toronto
+0.778096850804
+pp
+0.409365951606
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 42
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+0.998628669962
+vancouv
+0.939083091578
+toronto
+0.750799593063
+pp
+0.463128746425
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 41
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00107168106
+vancouv
+0.935698268344
+toronto
+0.732777583651
+pp
+0.496432651906
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 40
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00216159836
+vancouv
+0.933156732947
+toronto
+0.721132491573
+pp
+0.51713050018
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 39
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00267062601
+vancouv
+0.931398426412
+toronto
+0.713697108006
+pp
+0.53003177605
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 38
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00292110499
+vancouv
+0.93023102337
+toronto
+0.708982231867
+pp
+0.538091055332
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 37
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00305112462
+vancouv
+0.929473363227
+toronto
+0.706004705159
+pp
+0.543133270072
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 36
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00312201633
+vancouv
+0.928988088892
+toronto
+0.704129018186
+pp
+0.546291080822
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 35
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00316228818
+vancouv
+0.928679726426
+toronto
+0.702949237203
+pp
+0.548270038064
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 34
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00318589919
+vancouv
+0.928484724453
+toronto
+0.702207872972
+pp
+0.549510746467
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 33
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00320006106
+vancouv
+0.928361775692
+toronto
+0.701742280099
+pp
+0.550288817718
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 32
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00320868971
+vancouv
+0.928284399493
+toronto
+0.701449984991
+pp
+0.550776843313
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 31
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00321400237
+vancouv
+0.928235759783
+toronto
+0.701266526822
+pp
+0.551082977785
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 30
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00321729581
+vancouv
+0.928205206181
+toronto
+0.70115139639
+pp
+0.551275026355
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 29
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00321934647
+vancouv
+0.928186022208
+toronto
+0.701079152006
+pp
+0.551395510051
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 28
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322062691
+vancouv
+0.928173980381
+toronto
+0.70103382119
+pp
+0.551471098776
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 27
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322142784
+vancouv
+0.928166423031
+toronto
+0.701005378701
+pp
+0.55151852221
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 26
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322192939
+vancouv
+0.928161680627
+toronto
+0.700987533065
+pp
+0.551548275399
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 25
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322224369
+vancouv
+0.92815870487
+toronto
+0.700976336356
+pp
+0.551566942501
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 24
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322244074
+vancouv
+0.928156837727
+toronto
+0.700969311378
+pp
+0.551578654259
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 23
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322256431
+vancouv
+0.928155666218
+toronto
+0.700964903829
+pp
+0.551586002245
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 22
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322264181
+vancouv
+0.928154931186
+toronto
+0.700962138494
+pp
+0.551590612399
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 21
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322269043
+vancouv
+0.928154470014
+toronto
+0.700960403501
+pp
+0.551593504828
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 20
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322272093
+vancouv
+0.928154180669
+toronto
+0.700959314955
+pp
+0.551595319552
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 19
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322274007
+vancouv
+0.928153999132
+toronto
+0.700958631994
+pp
+0.551596458119
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 18
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322275207
+vancouv
+0.928153885233
+toronto
+0.700958203501
+pp
+0.551597172461
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 17
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.0032227596
+vancouv
+0.928153813773
+toronto
+0.700957934662
+pp
+0.551597620643
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 16
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322276433
+vancouv
+0.928153768938
+toronto
+0.700957765991
+pp
+0.551597901835
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 15
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322276729
+vancouv
+0.928153740808
+toronto
+0.700957660165
+pp
+0.551598078256
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 14
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322276915
+vancouv
+0.92815372316
+toronto
+0.70095759377
+pp
+0.551598188944
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 13
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277032
+vancouv
+0.928153712087
+toronto
+0.700957552113
+pp
+0.55159825839
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 12
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277105
+vancouv
+0.92815370514
+toronto
+0.700957525978
+pp
+0.55159830196
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 11
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277151
+vancouv
+0.928153700781
+toronto
+0.70095750958
+pp
+0.551598329297
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 10
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.0032227718
+vancouv
+0.928153698046
+toronto
+0.700957499292
+pp
+0.551598346448
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 9
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277198
+vancouv
+0.92815369633
+toronto
+0.700957492837
+pp
+0.551598357209
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 8
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277209
+vancouv
+0.928153695254
+toronto
+0.700957488787
+pp
+0.55159836396
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 7
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277216
+vancouv
+0.928153694579
+toronto
+0.700957486247
+pp
+0.551598368196
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 6
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277221
+vancouv
+0.928153694155
+toronto
+0.700957484652
+pp
+0.551598370853
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 5
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277224
+vancouv
+0.928153693889
+toronto
+0.700957483652
+pp
+0.551598372521
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 4
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277225
+vancouv
+0.928153693722
+toronto
+0.700957483025
+pp
+0.551598373567
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 3
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277227
+vancouv
+0.928153693618
+toronto
+0.700957482631
+pp
+0.551598374223
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 2
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277227
+vancouv
+0.928153693552
+toronto
+0.700957482384
+pp
+0.551598374635
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 1
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+detroit
+1.00322277228
+vancouv
+0.928153693511
+toronto
+0.700957482229
+pp
+0.551598374893
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010348
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010777
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010461
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010355
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010872
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010010
+PATH= /tmp/20_newsgroups/rec.sport.hockey/0010475
+7 Documents
+NROUND: 0

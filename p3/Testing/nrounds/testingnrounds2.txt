@@ -1,0 +1,817 @@
+['intel', 'new', 'hardware']
+ROCCHIO VECTOR
+Weight of the vector: 
+3
+intel
+0.57735026919
+new
+0.57735026919
+hardware
+0.57735026919
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004392
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003077
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004907
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004386
+PATH= /tmp/20_newsgroups/misc.forsale/0006386
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004347
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003011
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003411
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003720
+PATH= /tmp/20_newsgroups/comp.sys.mac.hardware/0004532
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003534
+PATH= /tmp/20_newsgroups/comp.windows.x/0005777
+PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+PATH= /tmp/20_newsgroups/comp.os.ms-windows.misc/0002172
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003124
+PATH= /tmp/20_newsgroups/comp.graphics/0001690
+PATH= /tmp/20_newsgroups/comp.graphics/0001214
+PATH= /tmp/20_newsgroups/comp.windows.x/0005038
+21 Documents
+NROUND: 49
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+intel
+0.791510083137
+new
+0.676003310933
+hardware
+0.57735026919
+xfree
+0.18860478967
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.windows.x/0005777
+PATH= /tmp/20_newsgroups/comp.windows.x/0005002
+PATH= /tmp/20_newsgroups/comp.windows.x/0005038
+3 Documents
+NROUND: 48
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+intel
+0.928999509154
+new
+0.700384744173
+hardware
+0.493996461462
+amd
+0.322732996947
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 47
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+intel
+0.893711513831
+new
+0.698124292397
+amd
+0.665313831916
+hardware
+0.394953866284
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 46
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+0.909621379354
+intel
+0.829630858299
+new
+0.66810090649
+wyman
+0.321866847554
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+1 Documents
+NROUND: 45
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.11441015505
+intel
+0.789160644365
+new
+0.652603860276
+wathc
+0.297581380851
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 44
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.16074165748
+intel
+0.686303185209
+new
+0.580688256533
+wathc
+0.469600462153
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 43
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.19126762066
+intel
+0.615975529392
+wathc
+0.585948259259
+new
+0.531437673969
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 42
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20395122261
+wathc
+0.661149652529
+intel
+0.563930007448
+new
+0.494310441381
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 41
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20843094882
+wathc
+0.709625708695
+intel
+0.526924306926
+new
+0.467600655769
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 40
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20960178353
+wathc
+0.741087171773
+intel
+0.501283437769
+new
+0.448961099207
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 39
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20956507693
+wathc
+0.76165887431
+intel
+0.483767464464
+new
+0.436170522328
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 38
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20917363986
+wathc
+0.775195149242
+intel
+0.471898440134
+new
+0.427478332819
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 37
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.2087478297
+wathc
+0.784145210744
+intel
+0.463894598327
+new
+0.421605676921
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 36
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20838975032
+wathc
+0.790083753204
+intel
+0.458513251175
+new
+0.417652298089
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 35
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20811751471
+wathc
+0.794033887394
+intel
+0.454901904985
+new
+0.414997050513
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 34
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20792080999
+wathc
+0.796665917085
+intel
+0.45248129837
+new
+0.413216319633
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 33
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20778271674
+wathc
+0.798421741127
+intel
+0.450860088918
+new
+0.412023233504
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 32
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20768744062
+wathc
+0.799593986179
+intel
+0.449774836386
+new
+0.411224376156
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 31
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20762241692
+wathc
+0.800377037817
+intel
+0.449048604847
+new
+0.410689708243
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 30
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20757834795
+wathc
+0.800900301191
+intel
+0.448562733051
+new
+0.410331959718
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 29
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.2075486158
+wathc
+0.801250050103
+intel
+0.448237718122
+new
+0.410092633117
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 28
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20752861589
+wathc
+0.801483860369
+intel
+0.448020327076
+new
+0.409932548216
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 27
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20751518896
+wathc
+0.80164018178
+intel
+0.44787493152
+new
+0.409825476707
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 26
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20750618655
+wathc
+0.801744703198
+intel
+0.447777692327
+new
+0.409753866728
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 25
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20750015588
+wathc
+0.801814592949
+intel
+0.447712661589
+new
+0.409705975367
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 24
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.2074961183
+wathc
+0.801861327276
+intel
+0.447669171787
+new
+0.409673947344
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 23
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20749341616
+wathc
+0.801892578575
+intel
+0.447640088036
+new
+0.409652528505
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 22
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20749160821
+wathc
+0.801913476662
+intel
+0.447620638486
+new
+0.409638204747
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 21
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20749039876
+wathc
+0.801927451581
+intel
+0.447607631815
+new
+0.409628625866
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 20
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748958978
+wathc
+0.801936796917
+intel
+0.447598933783
+new
+0.409622220108
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 19
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748904871
+wathc
+0.801943046376
+intel
+0.447593117109
+new
+0.409617936352
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 18
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748868683
+wathc
+0.801947225557
+intel
+0.447589227305
+new
+0.409615071659
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 17
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748844482
+wathc
+0.801950020294
+intel
+0.447586626067
+new
+0.409613155944
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 16
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748828298
+wathc
+0.801951889216
+intel
+0.447584886536
+new
+0.409611874844
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 15
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748817474
+wathc
+0.80195313902
+intel
+0.447583723256
+new
+0.409611018132
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 14
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748810236
+wathc
+0.801953974801
+intel
+0.447582945335
+new
+0.409610445221
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 13
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748805395
+wathc
+0.801954533713
+intel
+0.447582425115
+new
+0.409610062098
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 12
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748802158
+wathc
+0.801954907475
+intel
+0.447582077227
+new
+0.409609805891
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 11
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748799993
+wathc
+0.801955157421
+intel
+0.447581844584
+new
+0.409609634558
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 10
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748798546
+wathc
+0.801955324568
+intel
+0.447581689008
+new
+0.409609519982
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 9
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748797578
+wathc
+0.801955436344
+intel
+0.44758158497
+new
+0.409609443362
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 8
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.2074879693
+wathc
+0.801955511092
+intel
+0.447581515396
+new
+0.409609392124
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 7
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748796498
+wathc
+0.801955561078
+intel
+0.44758146887
+new
+0.409609357859
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 6
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748796208
+wathc
+0.801955594506
+intel
+0.447581437757
+new
+0.409609334945
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 5
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748796014
+wathc
+0.80195561686
+intel
+0.44758141695
+new
+0.409609319622
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 4
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748795885
+wathc
+0.801955631808
+intel
+0.447581403036
+new
+0.409609309375
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 3
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748795798
+wathc
+0.801955641805
+intel
+0.447581393732
+new
+0.409609302522
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 2
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.2074879574
+wathc
+0.80195564849
+intel
+0.447581387509
+new
+0.40960929794
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 1
+ROCCHIO VECTOR ACTU
+Weight of the vector: 
+4
+amd
+1.20748795702
+wathc
+0.801955652961
+intel
+0.447581383348
+new
+0.409609294875
+End of Weight of the vector
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003567
+PATH= /tmp/20_newsgroups/comp.sys.ibm.pc.hardware/0003612
+2 Documents
+NROUND: 0
