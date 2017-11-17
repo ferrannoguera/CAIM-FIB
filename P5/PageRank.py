@@ -4,30 +4,30 @@ from collections import namedtuple
 import time
 import sys
 
-class Edge:
-    def __init__ (self, origin=None):
-        self.origin = origin # write appropriate value
-        self.weight = 0 # write appropriate value TESTING
+#class Edge:
+#    def __init__ (self, origin=None):
+#        self.origin = origin # write appropriate value
+#        self.weight = 0 # write appropriate value TESTING
 
-    def __repr__(self):
-        return "edge: {0} {1}".format(self.origin, self.weight)
+#    def __repr__(self):
+#        return "edge: {0} {1}".format(self.origin, self.weight)
         
     ## write rest of code that you need for this class
 
 class Airport:
     def __init__ (self, iden=None, name=None):
-        self.code = iden
+        #self.code = iden
         self.name = name
-        self.routes = []
-        self.routeHash = dict()
-        self.outweight = 0   # write appropriate value
+        self.aristdict = dict()
+        self.outweight = 0   # num de aristas que salen del aeropuerto
 
     def __repr__(self):
-        return "{0}\t{2}\t{1}".format(self.code, self.name, self.pageIndex)
+    	return self.aristdict
+        #return "{t{2}\t{1}}".format(self.name, self.outweight)
 
-edgeList = [] # list of Edge
-edgeHash = dict() # hash of edge to ease the match
-airportList = [] # list of Airport
+#edgeList = [] # list of Edge
+#edgeHash = dict() # hash of edge to ease the match
+#airportList = [] # list of Airport
 airportHash = dict() # hash key IATA code -> Airport
 
 def readAirports(fd):
@@ -41,12 +41,12 @@ def readAirports(fd):
             if len(temp[4]) != 5 :
                 raise Exception('not an IATA code')
             a.name=temp[1][1:-1] + ", " + temp[3][1:-1]
-            a.code=temp[4][1:-1]
+            code=temp[4][1:-1]
         except Exception as inst:
             pass
         else:
-            airportList.append(a)
-            airportHash[a.code] = count
+            #airportList.append(a)
+            airportHash[code] = a
             cont += 1
     airportsTxt.close()
     print "There were {0} Airports with IATA code".format(cont)
@@ -55,28 +55,26 @@ def readAirports(fd):
 def readRoutes(fd):
     print "Reading Routes file from {0}".format(fd)
     routesTxt = open(fd, "r");
-    count = 0
+    origin = ""
+    end = ""
     for line in routesTxt.readlines():
-        e = Edge()
-        count = 0
         try:
             temp = line.split(',')
             if len(temp[2]) != 3 or len(temp[4]) != 3 :
                 raise Exception('not a IATA code')
-            e.origin=temp[2]
-            e.weight = 1
+            origin=temp[2]
             end=temp[4]
+            print (origin)
+            print (end)
         except Exception as inst:
-            print(len(temp[2]))
-            print(len(temp[4]))
+            print("ESTO ES UN DESMADRE QUEREMOS PADRE Y MADRE")
             pass
         else:
-            if(edgeHash.has_key(end)):
-
+            if(airportHash[origin].aristdict.has_key(end)):
+            	airportHash[origin].aristdict[end] += 1
             else:
-                e.weight = 1
-            edgeHash[end] = e
-            edgeList.append(e)
+                airportHash[origin].aristdict[end] = 0
+            airportHash[origin].outweight += 1
         routesTxt.close()
 
 def computePageRanks():
@@ -90,7 +88,7 @@ def outputPageRanks():
 def main(argv=None):
     readAirports("airports.txt")
     readRoutes("routes.txt")
-    print(edgeHash)
+    print(airportHash)
     time1 = time.time()
     iterations = computePageRanks()
     time2 = time.time()
