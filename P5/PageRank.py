@@ -62,7 +62,7 @@ def readRoutes(fd):
             origin=temp[2]
             end=temp[4]
         except Exception as inst:
-            print("ESTO ES UN DESMADRE QUEREMOS PADRE Y MADRE")
+            print("Error routes")
             pass
         else:
             not_exists = False
@@ -109,7 +109,7 @@ def computePageRanks():
                     const2 += (pagerank*valuej)/airportHash[keyj].outweight
             pageRankListAux[valuei.id] = const1+damping*(const2+const3)
         pageRankList = pageRankListAux
-        print(sum(pageRankList))
+        #print(sum(pageRankList))
         count += 1
     return count
 
@@ -117,6 +117,7 @@ def computePageRanks():
 def outputPageRanks():
     aux2 = []
     aux3 = []
+	print(sum(pageRankList))
     for j, i in airportHash.iteritems():
         aux2.append(i.name)
         aux3.append(pageRankList[i.id])
