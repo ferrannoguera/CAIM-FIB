@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+from __future__ import division
 from collections import namedtuple
 import time
 import sys
@@ -15,20 +15,21 @@ import sys
     ## write rest of code that you need for this class
 
 class Airport:
-    def __init__ (self, iden=None, name=None):
-        #self.code = iden
+    def __init__ (self, name=None):
+        self.pageRank = 0.0
         self.name = name
         self.aristdict = dict()
         self.outweight = 0   # num de aristas que salen del aeropuerto
 
     def __repr__(self):
-    	return self.aristdict
+    	return self.name
         #return "{t{2}\t{1}}".format(self.name, self.outweight)
 
 #edgeList = [] # list of Edge
 #edgeHash = dict() # hash of edge to ease the match
 #airportList = [] # list of Airport
 airportHash = dict() # hash key IATA code -> Airport
+numAirports = 0
 
 def readAirports(fd):
     print "Reading Airport file from {0}".format(fd)
@@ -49,37 +50,47 @@ def readAirports(fd):
             airportHash[code] = a
             cont += 1
     airportsTxt.close()
+    numAirports = cont
+    for key, value in airportHash.iteritems():
+    	value.pageRank = (1/numAirports)
     print "There were {0} Airports with IATA code".format(cont)
 
 
 def readRoutes(fd):
     print "Reading Routes file from {0}".format(fd)
     routesTxt = open(fd, "r");
-    origin = ""
-    end = ""
     for line in routesTxt.readlines():
         try:
             temp = line.split(',')
-            if len(temp[2]) != 3 or len(temp[4]) != 3 :
+            if len(temp[2]) != 3:
                 raise Exception('not a IATA code')
+            if len(temp[4]) != 3:
+            	raise Exception('not a IATA code')
             origin=temp[2]
             end=temp[4]
-            print (origin)
-            print (end)
         except Exception as inst:
             print("ESTO ES UN DESMADRE QUEREMOS PADRE Y MADRE")
             pass
         else:
-            if(airportHash[origin].aristdict.has_key(end)):
-            	airportHash[origin].aristdict[end] += 1
-            else:
-                airportHash[origin].aristdict[end] = 0
-            airportHash[origin].outweight += 1
+        	not_exists = False;
+        	if (not airportHash.has_key(origin)):
+        		not_exists = True
+    		if (not not_exists):
+	            if(airportHash[origin].aristdict.has_key(end)):
+	            	airportHash[origin].aristdict[end] += 1
+	            else:
+	                airportHash[origin].aristdict[end] = 0
+	            airportHash[origin].outweight += 1
         routesTxt.close()
 
 def computePageRanks():
-    pass
-    # write your code
+    itera = 100
+    count = 0
+    damping = 0.8
+    const1 = (1-damping)/numAirports
+    #while(count <= itera):
+
+
 
 def outputPageRanks():
     pass
@@ -88,7 +99,7 @@ def outputPageRanks():
 def main(argv=None):
     readAirports("airports.txt")
     readRoutes("routes.txt")
-    print(airportHash)
+    #print(airportHash)
     time1 = time.time()
     iterations = computePageRanks()
     time2 = time.time()
