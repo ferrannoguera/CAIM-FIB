@@ -15,9 +15,10 @@ import sys
     ## write rest of code that you need for this class
 
 class Airport:
-    def __init__ (self, name=None):
+    def __init__ (self,code=None, name=None):
         self.pageRank = 0.0
         self.name = name
+        self.code = code
         self.aristdict = dict()
         self.outweight = 0   # num de aristas que salen del aeropuerto
 
@@ -27,7 +28,7 @@ class Airport:
 
 #edgeList = [] # list of Edge
 #edgeHash = dict() # hash of edge to ease the match
-#airportList = [] # list of Airport
+airportSinkList = [] # list of Airport
 airportHash = dict() # hash key IATA code -> Airport
 numAirports = 0
 
@@ -42,12 +43,11 @@ def readAirports(fd):
             if len(temp[4]) != 5 :
                 raise Exception('not an IATA code')
             a.name=temp[1][1:-1] + ", " + temp[3][1:-1]
-            code=temp[4][1:-1]
+            a.code=temp[4][1:-1]
         except Exception as inst:
             pass
         else:
-            #airportList.append(a)
-            airportHash[code] = a
+            airportHash[a.code] = a
             cont += 1
     airportsTxt.close()
     numAirports = cont
@@ -83,13 +83,24 @@ def readRoutes(fd):
 	            airportHash[origin].outweight += 1
         routesTxt.close()
 
+
+def getSinkAirports():
+	for key, value in airportHash.iteritems():
+		if (value.outweight == 0):
+			airportSinkList.append(value.code)
+			print(value.code)
+
+
+
 def computePageRanks():
     itera = 100
     count = 0
     damping = 0.8
     const1 = (1-damping)/numAirports
-    #while(count <= itera):
-
+    while(count <= itera):
+    	for keyi, valuei in airportHash.iteritems():
+    		for keyj, valuej in airportHash[keyi].aristdict.iteritems():
+    			
 
 
 def outputPageRanks():
@@ -100,6 +111,7 @@ def main(argv=None):
     readAirports("airports.txt")
     readRoutes("routes.txt")
     #print(airportHash)
+    getSinkAirports()
     time1 = time.time()
     iterations = computePageRanks()
     time2 = time.time()
