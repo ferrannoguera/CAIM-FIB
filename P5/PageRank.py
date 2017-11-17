@@ -4,16 +4,6 @@ from collections import namedtuple
 import time
 import sys
 
-#class Edge:
-#    def __init__ (self, origin=None):
-#        self.origin = origin # write appropriate value
-#        self.weight = 0 # write appropriate value TESTING
-
-#    def __repr__(self):
-#        return "edge: {0} {1}".format(self.origin, self.weight)
-        
-    ## write rest of code that you need for this class
-
 class Airport:
     def __init__ (self,id=None,code=None, name=None):
         self.id = 0
@@ -24,10 +14,8 @@ class Airport:
 
     def __repr__(self):
         return self.name
-        #return "{t{2}\t{1}}".format(self.name, self.outweight)
 
-#edgeList = [] # list of Edge
-#edgeHash = dict() # hash of edge to ease the match
+
 pageRankList = []
 pageRankListAux = []
 airportSinkList = [] # list of Airport
@@ -97,14 +85,13 @@ def getSinkAirports():
     for key, value in airportHash.iteritems():
         if (value.outweight == 0):
             airportSinkList.append(value.code)
-            #print(value.code)
 
 
 
 def computePageRanks():
-    itera = 70
+    itera = 200
     count = 0
-    damping = 0.9
+    damping = 0.85
     const1 = (1-damping)/numAirports
     global pageRankList
     global airportSinkList
@@ -118,7 +105,7 @@ def computePageRanks():
             const2 = 0
             for keyj, valuej in airportHash[keyi].aristdict.iteritems():
                 if airportHash[keyj].outweight != 0:
-                    pagerank = pageRankList[airportHash[keyj].id] #OFICIAL HERE
+                    pagerank = pageRankList[airportHash[keyj].id]
                     const2 += (pagerank*valuej)/airportHash[keyj].outweight
             pageRankListAux[valuei.id] = const1+damping*(const2+const3)
         pageRankList = pageRankListAux
@@ -128,7 +115,6 @@ def computePageRanks():
 
 
 def outputPageRanks():
-    #########################################print(sum(pageRankList))
     aux2 = []
     aux3 = []
     for j, i in airportHash.iteritems():
@@ -138,29 +124,17 @@ def outputPageRanks():
     plot = sorted(plot)
     plot.reverse()
     print(plot)
-    #for keyi, valuei in airportHash.iteritems():
-        #print(valuei.name)
-    	#print(pageRankList[valuei.id])
-        #print("{1}: Con PageRank => {2}".format(valuei.name,pageRankList[valuei.id]))
-    # write your code
 
-def mistesteos():
-    #PAGERANK CHECKED
-    for key,value in airportHash.iteritems():
-        print(value.code)
-        print(value.outweight)
 
 def main(argv=None):
     readAirports("airports.txt")
     readRoutes("routes.txt")
-    #print(airportHash)
     getSinkAirports()
-    #mistesteos()
     time1 = time.time()
     iterations = computePageRanks()
     time2 = time.time()
     outputPageRanks()
-    #print "#Iterations:", iterations
+    print "#Iterations:", iterations-1
     print "Time of computePageRanks():", time2-time1
 
 
