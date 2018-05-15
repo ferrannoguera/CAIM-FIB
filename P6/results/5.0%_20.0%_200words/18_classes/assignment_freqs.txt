@@ -1,0 +1,409 @@
+CLASS0
+--------------------------------------------------
+misc.forsale: 138
+comp.windows.x: 62
+comp.graphics: 54
+comp.sys.mac.hardware: 51
+comp.sys.ibm.pc.hardware: 50
+rec.sport.baseball: 37
+sci.electronics: 35
+rec.autos: 35
+comp.os.ms-windows.misc: 30
+sci.med: 27
+rec.motorcycles: 23
+rec.sport.hockey: 22
+soc.religion.christian: 17
+sci.crypt: 15
+sci.space: 15
+talk.religion.misc: 12
+alt.atheism: 11
+talk.politics.misc: 9
+talk.politics.guns: 9
+talk.politics.mideast: 9
+--------------------------------------------------
+CLASS1
+--------------------------------------------------
+comp.sys.mac.hardware: 48
+comp.sys.ibm.pc.hardware: 46
+sci.med: 40
+comp.graphics: 37
+sci.electronics: 29
+sci.space: 28
+rec.motorcycles: 25
+sci.crypt: 23
+comp.windows.x: 22
+alt.atheism: 21
+rec.sport.baseball: 19
+talk.politics.guns: 18
+soc.religion.christian: 17
+rec.autos: 17
+rec.sport.hockey: 16
+misc.forsale: 15
+comp.os.ms-windows.misc: 15
+talk.politics.misc: 14
+talk.religion.misc: 14
+talk.politics.mideast: 11
+--------------------------------------------------
+CLASS2
+--------------------------------------------------
+comp.graphics: 157
+comp.windows.x: 73
+comp.sys.ibm.pc.hardware: 52
+sci.space: 50
+sci.electronics: 46
+comp.os.ms-windows.misc: 44
+comp.sys.mac.hardware: 36
+sci.crypt: 28
+misc.forsale: 20
+sci.med: 18
+talk.politics.misc: 15
+soc.religion.christian: 9
+talk.religion.misc: 9
+alt.atheism: 5
+rec.motorcycles: 5
+rec.autos: 4
+talk.politics.mideast: 3
+rec.sport.baseball: 2
+rec.sport.hockey: 1
+--------------------------------------------------
+CLASS3
+--------------------------------------------------
+sci.electronics: 30
+talk.politics.misc: 29
+misc.forsale: 21
+sci.space: 21
+rec.autos: 20
+comp.os.ms-windows.misc: 19
+soc.religion.christian: 18
+talk.politics.guns: 17
+comp.sys.ibm.pc.hardware: 16
+sci.crypt: 16
+rec.motorcycles: 15
+comp.sys.mac.hardware: 14
+sci.med: 13
+alt.atheism: 13
+talk.politics.mideast: 12
+talk.religion.misc: 11
+comp.windows.x: 10
+comp.graphics: 8
+rec.sport.baseball: 6
+rec.sport.hockey: 5
+--------------------------------------------------
+CLASS4
+--------------------------------------------------
+talk.politics.misc: 885
+talk.religion.misc: 831
+talk.politics.guns: 808
+alt.atheism: 798
+soc.religion.christian: 779
+talk.politics.mideast: 773
+sci.crypt: 731
+sci.med: 639
+sci.space: 631
+rec.autos: 598
+rec.motorcycles: 532
+sci.electronics: 519
+rec.sport.baseball: 473
+comp.sys.mac.hardware: 457
+comp.sys.ibm.pc.hardware: 409
+rec.sport.hockey: 381
+comp.graphics: 351
+comp.windows.x: 284
+misc.forsale: 234
+comp.os.ms-windows.misc: 212
+--------------------------------------------------
+CLASS5
+--------------------------------------------------
+comp.os.ms-windows.misc: 500
+comp.windows.x: 317
+comp.graphics: 123
+comp.sys.ibm.pc.hardware: 121
+comp.sys.mac.hardware: 40
+misc.forsale: 39
+rec.autos: 16
+sci.electronics: 13
+talk.politics.misc: 7
+rec.motorcycles: 7
+sci.crypt: 6
+rec.sport.baseball: 6
+sci.med: 5
+sci.space: 5
+soc.religion.christian: 4
+talk.religion.misc: 4
+talk.politics.guns: 3
+talk.politics.mideast: 2
+--------------------------------------------------
+CLASS6
+--------------------------------------------------
+comp.sys.mac.hardware: 34
+sci.electronics: 33
+rec.autos: 29
+rec.motorcycles: 24
+comp.sys.ibm.pc.hardware: 23
+comp.windows.x: 20
+sci.space: 18
+comp.os.ms-windows.misc: 18
+rec.sport.baseball: 17
+talk.religion.misc: 15
+comp.graphics: 14
+sci.med: 13
+alt.atheism: 12
+soc.religion.christian: 11
+rec.sport.hockey: 11
+talk.politics.misc: 8
+talk.politics.guns: 8
+sci.crypt: 7
+talk.politics.mideast: 7
+misc.forsale: 5
+--------------------------------------------------
+CLASS7
+--------------------------------------------------
+comp.sys.mac.hardware: 79
+comp.sys.ibm.pc.hardware: 66
+misc.forsale: 61
+sci.electronics: 54
+comp.windows.x: 43
+comp.os.ms-windows.misc: 39
+comp.graphics: 38
+sci.space: 35
+talk.politics.misc: 30
+talk.politics.mideast: 30
+rec.sport.hockey: 27
+rec.autos: 24
+rec.motorcycles: 23
+talk.religion.misc: 21
+sci.crypt: 21
+talk.politics.guns: 18
+sci.med: 15
+rec.sport.baseball: 15
+soc.religion.christian: 13
+alt.atheism: 3
+--------------------------------------------------
+CLASS8
+--------------------------------------------------
+sci.space: 50
+rec.motorcycles: 39
+sci.med: 39
+rec.autos: 38
+talk.politics.guns: 35
+rec.sport.baseball: 35
+talk.politics.misc: 33
+comp.sys.mac.hardware: 26
+talk.religion.misc: 26
+rec.sport.hockey: 22
+soc.religion.christian: 21
+misc.forsale: 20
+talk.politics.mideast: 20
+alt.atheism: 17
+sci.electronics: 17
+sci.crypt: 12
+comp.graphics: 10
+comp.sys.ibm.pc.hardware: 10
+comp.windows.x: 9
+comp.os.ms-windows.misc: 9
+--------------------------------------------------
+CLASS9
+--------------------------------------------------
+sci.med: 45
+comp.graphics: 42
+sci.electronics: 34
+sci.crypt: 33
+comp.windows.x: 23
+comp.sys.ibm.pc.hardware: 17
+comp.sys.mac.hardware: 16
+misc.forsale: 14
+rec.autos: 13
+rec.sport.hockey: 12
+talk.politics.mideast: 10
+talk.religion.misc: 9
+comp.os.ms-windows.misc: 9
+soc.religion.christian: 8
+talk.politics.misc: 8
+sci.space: 8
+talk.politics.guns: 6
+alt.atheism: 6
+rec.sport.baseball: 6
+rec.motorcycles: 4
+--------------------------------------------------
+CLASS10
+--------------------------------------------------
+rec.motorcycles: 114
+rec.sport.hockey: 75
+sci.electronics: 69
+comp.sys.ibm.pc.hardware: 55
+comp.sys.mac.hardware: 49
+sci.space: 43
+comp.graphics: 40
+rec.autos: 36
+talk.politics.mideast: 32
+rec.sport.baseball: 32
+comp.os.ms-windows.misc: 32
+talk.religion.misc: 27
+talk.politics.misc: 26
+sci.med: 26
+misc.forsale: 23
+sci.crypt: 21
+talk.politics.guns: 20
+comp.windows.x: 16
+soc.religion.christian: 15
+alt.atheism: 8
+--------------------------------------------------
+CLASS11
+--------------------------------------------------
+talk.religion.misc: 36
+rec.motorcycles: 28
+talk.politics.guns: 28
+misc.forsale: 27
+talk.politics.misc: 24
+rec.autos: 24
+talk.politics.mideast: 23
+rec.sport.hockey: 20
+rec.sport.baseball: 20
+comp.graphics: 18
+alt.atheism: 18
+comp.sys.mac.hardware: 17
+sci.space: 17
+sci.med: 16
+comp.windows.x: 16
+soc.religion.christian: 15
+sci.crypt: 15
+sci.electronics: 14
+comp.sys.ibm.pc.hardware: 12
+comp.os.ms-windows.misc: 7
+--------------------------------------------------
+CLASS12
+--------------------------------------------------
+rec.motorcycles: 61
+rec.sport.baseball: 47
+talk.religion.misc: 40
+alt.atheism: 39
+rec.sport.hockey: 39
+rec.autos: 39
+misc.forsale: 35
+sci.electronics: 31
+comp.sys.ibm.pc.hardware: 30
+comp.graphics: 30
+talk.politics.misc: 27
+talk.politics.guns: 26
+comp.sys.mac.hardware: 26
+sci.med: 26
+sci.space: 26
+sci.crypt: 24
+comp.windows.x: 22
+talk.politics.mideast: 15
+soc.religion.christian: 12
+comp.os.ms-windows.misc: 9
+--------------------------------------------------
+CLASS13
+--------------------------------------------------
+rec.sport.hockey: 324
+rec.sport.baseball: 212
+misc.forsale: 35
+rec.motorcycles: 14
+sci.electronics: 14
+comp.sys.mac.hardware: 10
+sci.space: 10
+comp.sys.ibm.pc.hardware: 9
+comp.os.ms-windows.misc: 9
+talk.politics.misc: 8
+talk.religion.misc: 8
+rec.autos: 8
+alt.atheism: 7
+comp.graphics: 6
+talk.politics.mideast: 6
+comp.windows.x: 4
+soc.religion.christian: 3
+sci.med: 3
+sci.crypt: 3
+--------------------------------------------------
+CLASS14
+--------------------------------------------------
+misc.forsale: 101
+comp.sys.mac.hardware: 43
+comp.sys.ibm.pc.hardware: 43
+rec.autos: 28
+comp.graphics: 25
+comp.windows.x: 16
+sci.electronics: 14
+rec.motorcycles: 14
+sci.med: 12
+talk.religion.misc: 11
+comp.os.ms-windows.misc: 8
+sci.space: 7
+talk.politics.guns: 6
+soc.religion.christian: 5
+rec.sport.hockey: 5
+alt.atheism: 3
+rec.sport.baseball: 3
+talk.politics.misc: 1
+talk.politics.mideast: 1
+--------------------------------------------------
+CLASS15
+--------------------------------------------------
+sci.electronics: 20
+misc.forsale: 17
+comp.graphics: 12
+comp.windows.x: 12
+comp.sys.mac.hardware: 10
+talk.religion.misc: 10
+comp.sys.ibm.pc.hardware: 10
+talk.politics.mideast: 9
+sci.med: 7
+sci.space: 7
+alt.atheism: 7
+rec.sport.baseball: 7
+soc.religion.christian: 6
+rec.autos: 6
+talk.politics.guns: 4
+sci.crypt: 4
+comp.os.ms-windows.misc: 4
+rec.motorcycles: 4
+talk.politics.misc: 3
+rec.sport.hockey: 2
+--------------------------------------------------
+CLASS16
+--------------------------------------------------
+talk.politics.misc: 29
+alt.atheism: 29
+sci.med: 27
+talk.politics.guns: 26
+rec.sport.baseball: 26
+rec.autos: 24
+talk.religion.misc: 22
+talk.politics.mideast: 21
+rec.motorcycles: 21
+comp.windows.x: 18
+sci.crypt: 18
+comp.graphics: 15
+comp.sys.ibm.pc.hardware: 14
+sci.space: 13
+misc.forsale: 13
+soc.religion.christian: 12
+comp.os.ms-windows.misc: 11
+sci.electronics: 8
+rec.sport.hockey: 7
+comp.sys.mac.hardware: 5
+--------------------------------------------------
+CLASS17
+--------------------------------------------------
+misc.forsale: 154
+rec.motorcycles: 35
+rec.autos: 30
+comp.sys.mac.hardware: 26
+soc.religion.christian: 23
+sci.med: 20
+comp.sys.ibm.pc.hardware: 19
+sci.crypt: 18
+comp.windows.x: 15
+comp.graphics: 14
+sci.electronics: 14
+alt.atheism: 13
+talk.politics.guns: 11
+talk.politics.misc: 10
+sci.space: 10
+rec.sport.baseball: 10
+talk.religion.misc: 9
+rec.sport.hockey: 9
+talk.politics.mideast: 9
+comp.os.ms-windows.misc: 8
+--------------------------------------------------
